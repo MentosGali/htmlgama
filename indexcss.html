@@ -4,18 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML-CSS</title>
+
     <style>
 body{background-color: lavenderblush;}
 h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 h1{color: brown;}
+
 p{color: chocolate;}
+p{border: 2px solid cornflowerblue;}
+p{padding: 5px;}
+p{margin: 9px;}
+
+tagname{padding: 15px}
+
+
+a:link {
+  color: rgb(43, 43, 43);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(160, 14, 38);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(38, 0, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(0, 242, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+cite:active{
+    color:rgb(0, 0, 0);
+}
+
+cite:hover{
+    color:rgb(173, 134, 189);
+}
+
+cite:visited{
+color:brown;
+}
+
+cite:link{
+    color:aquamarine;
+}
+
     </style>
+
 </head>
 
 <body>
+    <!--Border lit a border line color-->
+    <!--padding space between text and border-->
+    <!--margin space between tag-->
+
     <h1>This is a heading H1</h1>
     <p>This is a paragraph</p>
+    <p>This is secund paragraph</p>
+
+<tagname >Self</tagname>
+<tagname>blanc</tagname>
+<tagname>parent</tagname>
+<tagname>top</tagname>
+<br>
+<a style="background-color: rgb(56, 156, 149);"  href="https://afs.ca.uky.edu/poultry/duck" target="_self">Duck pages</a>
+<a style="background-color: rgb(173, 134, 189);"  href="https://afs.ca.uky.edu/poultry/duck" target="_blank">Duck pages</a>
+<a style="background-color: rgb(211, 103, 57);"  href="https://afs.ca.uky.edu/poultry/duck" target="_parent">Duck pages</a>
+<a style="background-color: rgb(221, 228, 33);"  href="https://afs.ca.uky.edu/poultry/duck" target="_top">Duck pages</a>
+
+<!--to a email addres-->
+<p><a href="gama: game.mendez447@gmail.com">Send email</a></p>
+
+
+<h2>Button as a Links</h2>
+<p>Do click at button Self?</p>
+<button style= "font-family: 'Courier New', Courier, monospace; background-color:
+rgb(233, 217, 235); color: rgb(0, 0, 0); border: 1px solid rgb(105, 120, 148);
+" onclick="document.location='https://www.adobe.com/mx/creativecloud/video/discover/best-video-format.html'">Formatos de videos A</button>
+
+<p>whit property blank</p>
+<button style= "font-family: 'Courier New', Courier, monospace; background-color:
+rgb(210, 251, 237); color: rgb(0, 83, 156); border: 1px solid cornflowerblue;
+" onclick="window.open('https://www.adobe.com/mx/creativecloud/video/discover/best-video-format.html')">Formatos de videos B</button>
+<br>
+
+
+imagen as link
+<br>
+<!--target isn't a atribute of img, but yes of tag a-->
+<a href="https://jujutsu-kaisen.fandom.com/es/wiki/Satoru_Gojo" target="_blank" >
+    <img src="https://cdn.chatfai.com/public_characters/ssmHlayEkdP03mM4xKJam1kwmOe2/c43f2674-0e42-4e8b-8219-7dd53f180afathumb-1920-1332281.jpeg" 
+    alt="Gojo Satoru Biograhy" style="width: 80px; height: 60px; ">
+  <p><cite>Gojo Link to page</cite></p>
+</a>
+
+<a href="https://www.youtube.com/watch?v=PWF5SgnNdp4"> Aprendiendo React</a>
+<!--link color before open links
+over color mouse in link
+visited color change
+active click at the-->
+
+
+<cite></cite>
 
 
 </body>
+
 </html>
